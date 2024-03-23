@@ -1,6 +1,0 @@
-{
-  "name": "Ugly Gallery Pyhton Lint Workflow",
-  "description": "Выполняет проверку Python кода с помощью линтеров и форматеров.",
-  "iconName": "octicon quote",
-  "categories": ["code-quality"]
-}

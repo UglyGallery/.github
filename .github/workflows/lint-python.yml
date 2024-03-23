@@ -1,11 +1,13 @@
-name: Lint
+name: Lint Python
 
-on: [ push ]
+on:
+  workflow_call:
 
 jobs:
   mypy:
     runs-on: ubuntu-latest
-    steps: #----------------------------------------------
+    steps:
+      #----------------------------------------------
       # check-out repo and set-up python
       #----------------------------------------------
       - uses: actions/checkout@v3
